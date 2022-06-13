@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+<<<<<<< HEAD
+    <isExposed>false</isExposed>
+=======
+    <isExposed>true</isExposed>
+    <masterLabel>Tabla de aprobaciones</masterLabel>
+    <description>Tabla con la cual mostraremos las aprobaciones pendientes</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+>>>>>>> d07efdc745928a15a64ea49993545fb6161aefb7
+</LightningComponentBundle>

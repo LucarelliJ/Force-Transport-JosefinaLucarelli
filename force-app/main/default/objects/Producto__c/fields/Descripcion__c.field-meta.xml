@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descripcion__c</fullName>
+    <externalId>false</externalId>
+<<<<<<< HEAD
+    <inlineHelpText>Descripcion del producto</inlineHelpText>
+    <label>Descripcion</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+=======
+    <label>Descripcion</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+>>>>>>> 6b7be628d003424131a6921636ac5e1fb7348b75
+</CustomField>

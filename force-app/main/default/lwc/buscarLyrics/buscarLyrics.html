@@ -1,0 +1,29 @@
+<template>
+   
+    <lightning-card  title="Buscador de letras Power Solutions ">
+        <div style="background-color: bisque">
+         <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning-input  type="text" label="Artista" onchange={handleArtistaChange} style="margin: 10px;"></lightning-input>
+            </div>
+            <div class="slds-col">
+                <lightning-input type="text" label="Canción" onchange={handleCancionChange} style="margin: 10px;"></lightning-input>
+            </div>
+          </div>
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning-input type="text" label="Letra" disabled="true" value={letra} style="margin: 10px;"></lightning-input>
+            </div>
+          </div>
+        </br>
+        </br>
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning-button variant="brand" label="Buscar" title="Buscar" onclick={handleClick} class="slds-m-left_x-small slds-float_right" style="margin: 10px;"></lightning-button>
+                <lightning-button s variant="brand" label="BuscarApex" title="BuscarApex" onclick={LlamadaApex} class="slds-m-left_x-small slds-float_right" style="margin: 10px; border-color: orange;" ></lightning-button>
+            </div>
+          </div>
+        </div>
+    </lightning-card>
+
+</template>
