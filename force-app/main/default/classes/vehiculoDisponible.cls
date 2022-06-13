@@ -19,7 +19,7 @@ public with sharing class vehiculoDisponible {
             if ((o.Fecha_de_Retiro__c <= op.Fecha_de_Retiro__c && o.Fecha_de_Retiro__c <= op.Fecha_de_Devolucion__c) || 
             (o.Fecha_de_Retiro__c >= op.Fecha_de_Retiro__c && o.Fecha_de_Retiro__c <= op.Fecha_de_Devolucion__c)) {
 
-                addError('chupalla');
+                addError('error');
                 
             }
 
